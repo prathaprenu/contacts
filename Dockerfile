@@ -4,5 +4,4 @@ RUN ./gradlew clean build -x test
 
 FROM openjdk:11-jdk-slim-sid
 COPY build/libs/*.jar prathap.jar
-EXPOSE 8081
 ENTRYPOINT ["java","-jar","prathap.jar"]
