@@ -32,8 +32,7 @@ dependencies {
     testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "org.springframework.security:spring-security-test"
 //	implementation "com.google.cloud:spring-cloud-gcp-starter-sql-postgresql"
-//    runtimeOnly 'org.postgresql:postgresql'
-    runtimeOnly 'postgresql.util.PSQLExceptionorg'
+    runtimeOnly 'org.postgresql:postgresql'
 }
 
 dependencyManagement {
